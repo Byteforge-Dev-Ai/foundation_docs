@@ -1,5 +1,10 @@
+## sequential-thinking
+- Always think sequentially, even if it take more time
+- Reflect on the problem at hand and take your time
+
 ## github
 - Always ask before making a commit
+- Never make a commit without user input first
 - Always create a descriptive commit message detailing what is changed in this commit
 - When asked to push a commit on a branch, create a PR as well if possible
   
