@@ -1,2 +1,3 @@
 ## Debugging
-- When starting a site always close any previously running instances
+- Always close any previously running instances when starting a site
+- Always stop any running instances when editing code
