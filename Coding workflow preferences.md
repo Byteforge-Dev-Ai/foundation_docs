@@ -1,12 +1,12 @@
-- Focus on the areas of code relevant to the task
-- Do not touch code that is unrelated to the task
-- Write thorough tests for all major functionality when asked to do so
-- Once a feature or specific functionality has been shown to work well:
--- Avoid making changes to that feature's pattern and architecture
--- If asked to make a change get explicit confirmation for that change
-- If a change to a working feature or functional area is requested
--- Always check the rest of the code for areas where that change might impact
--- Be mindful of how that change will impact the system as a whole
--- Ensure that the change is well understood before making it
--- Try to minimise the impact on other parts of the system beyond the scope of the task 
-- Always think about what other methods and areas of code might be affected by code changes
+* Focus on the areas of code relevant to the task
+* Do not touch code that is unrelated to the task
+* Write thorough tests for all major functionality when asked to do so
+* Once a feature or specific functionality has been shown to work well:
+    * Avoid making changes to that feature's pattern and architecture
+    * If asked to make a change get explicit confirmation for that change
+* If a change to a working feature or functional area is requested
+    * Always check the rest of the code for areas where that change might impact
+    * Be mindful of how that change will impact the system as a whole
+    * Ensure that the change is well understood before making it
+    * Try to minimise the impact on other parts of the system beyond the scope of the task 
+* Always think about what other methods and areas of code might be affected by code changes
