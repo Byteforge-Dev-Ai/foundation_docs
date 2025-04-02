@@ -1,20 +1,24 @@
-## sequential-thinking
-* Always think sequentially, even if it take more time
+# sequential-thinking
+* Always think sequentially, even if it takes more time
 * Reflect on the problem at hand and take your time
 
-## github
-* Always ask before making a commit
-* Never make a commit without user input first
+# github
+* > **IMPORTANT:** Always ask before making a commit
+* > **IMPORTANT:** Never make a commit without user input first
+* > **IMPORTANT:** Never push without explicit confirmation
 * Always create a descriptive commit message detailing what is changed in this commit
-* When asked to push a commit on a branch, create a PR as well if possible
+    * Remember git as a terminal command can not take messages with new lines in it
+* When asked to push a commit on a branch, ask if a PR is needed
+* Remember to ask before making a commit
   
-## browser-tools
-* Try to use browser*tools before puppeteer
-* If there are multiple instances of browser-tools-server running, stop them all
-* Always check that browser-tools-server is running, if it is not, start it
-* Always verify the port that the running instance of browser-tools-server is on as the browser plugin is set to the default port
+# browser-tools
+* Always check that `browser-tools-server` is running and is on port 3025
+    * If there are multiple instances of `browser-tools-server` running, stop them all
+* Try to use `browser-tools` before `puppeteer`
+* If there is an issue running `browser-tools`, check to see if the `browser-tools-server` is running
+    * If it is not, start it using `npx @agentdeskai/browser-tools-server@latest`
 
-## puppeteer
+# puppeteer
 * Always check the port for the currently running site before taking any action
 * Unless otherwise directed always start at the root `/` of a site
 * When debugging or diagnosing always check the browser logs first
